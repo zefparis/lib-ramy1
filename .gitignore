@@ -41,3 +41,4 @@ Thumbs.db
 .cache/
 .next/
 out/
+node_modules

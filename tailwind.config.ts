@@ -50,8 +50,8 @@ const config: Config = {
           "50%": { transform: "translateY(-10px)" },
         },
         twinkle: {
-          "0%, 100%": { opacity: 0.2 },
-          "50%": { opacity: 0.8 },
+          "0%, 100%": { opacity: "0.2" },
+          "50%": { opacity: "0.8" },
         },
       },
       animation: {
