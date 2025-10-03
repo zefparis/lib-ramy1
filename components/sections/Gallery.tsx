@@ -53,6 +53,7 @@ export default function Gallery() {
                     src={item.image}
                     alt={item.title}
                     fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                     className="object-contain object-center transition-transform duration-500 group-hover:scale-105"
                   />
                 </div>
