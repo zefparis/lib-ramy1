@@ -41,8 +41,7 @@ export default function Gallery() {
         <motion.div
           variants={containerVariants}
           initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.2 }}
+          animate="visible"
           className="grid grid-cols-1 gap-8 md:grid-cols-2"
         >
           {siteConfig.gallery.map((item) => (
