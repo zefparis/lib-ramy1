@@ -48,7 +48,7 @@ export default function Gallery() {
           {siteConfig.gallery.map((item) => (
             <motion.div key={item.title} variants={cardVariants}>
               <Card className="group h-full overflow-hidden p-0">
-                <div className="relative w-full overflow-hidden bg-night-950 aspect-[3/4] sm:aspect-[2/3]">
+                <div className="relative w-full overflow-hidden bg-night-950 h-80 sm:h-[28rem]">
                   <Image
                     src={item.image}
                     alt={item.title}
