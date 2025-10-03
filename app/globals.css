@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  background-color: theme("colors.night.950");
+  background-image: linear-gradient(
+      135deg,
+      rgba(148, 111, 255, 0.12) 0%,
+      rgba(67, 35, 115, 0.12) 35%,
+      rgba(13, 212, 197, 0.08) 70%,
+      rgba(16, 13, 40, 0.8) 100%
+    ),
+    url("/images/wp3931710.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+::selection {
+  background: theme("colors.mystic.500");
+  color: theme("colors.night.50");
+}
+
+a {
+  @apply text-mystic-200 transition-colors duration-200;
+}
+
+a:hover {
+  @apply text-mystic-100;
+}
